@@ -1,0 +1,221 @@
+@font-face {
+  font-family: 'arial'; 
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*
+--------------> HEADER 
+*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex: 1;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+}
+
+.menu {
+    display: flex;
+    flex: 1;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.menu ul li {
+    margin: 0 20px;
+    position: relative;
+}
+
+.menu ul li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+}
+
+.menu li a:hover {
+    color: white;
+}
+
+
+/*
+------------------------> BODY
+*/
+
+body {
+  min-height: 100vh;
+  background-color: black;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+#banner1 {
+  display:flex;
+  justify-content:flex;
+  height:500px;
+}
+
+/*
+------------------------> TEXTÃO
+*/
+
+
+.banner_headline {
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  flex:2;
+}
+.banner_headline h1 {
+  color:#FFFFFF;
+  font-size:40px;
+  text-shadow:0px 1px 0px #555555;
+  margin:0;
+  padding:0;
+  max-width:600px;
+  text-align: center;
+}
+.banner_headline p {
+  color:#FFFFFF;
+  font-size:14px;
+  margin:0;
+  padding:0;
+  max-width:700px;
+  margin-top:30px;
+  text-align: center;
+}
+
+.video1 {
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+    width: 50%;
+    flex:2;
+}
+
+
+/*
+------------------------> BANNERS 
+*/
+
+#banner2 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height:250px;
+  margin-top: 50px;
+}
+
+.banner1,
+.banner2, {
+  flex:1;
+  padding:20px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+
+/*
+------------------------> cadastro
+*/
+
+.method, .contato {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 120px;
+}
+
+.method {
+  flex: 1;
+}
+
+.contato {
+  padding: 10px;
+  width: 50%;
+  margin: auto;
+  margin-right: 70px;
+  position: relative;
+  flex: 2;
+}
+
+
+.method h4 {
+  font-weight: normal;
+  text-align: justify;
+  background-color: rgb(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+.button {
+  font-weight: bolder;
+  font-size: 16px;
+    display: inline-block;
+    padding: 10px;
+    background-color: lightsalmon;
+    color: white;
+    text-decoration: none;
+    transition: transform 0.3s;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-style: none;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+
+/*
+------------------------> RESPONSIVIDADE
+*/
